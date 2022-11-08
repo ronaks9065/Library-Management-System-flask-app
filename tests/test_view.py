@@ -1,5 +1,6 @@
 from config import TestConfig
 from flask_testing import TestCase
+from flask_login import LoginManager
 from Library_Management_System import app, db
 from Library_Management_System.models import User
 from Library_Management_System.views import main
